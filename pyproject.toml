@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "eicarrie-infergw_jd073"
+name = "eicarrie-reward_model_overfit_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告推理网关架构师·奖励模型的过拟合相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://eicarrie.github.io"
-Repository = "https://github.com/eicarrie/infergw_jd073"
-Issues = "https://github.com/eicarrie/infergw_jd073/issues"
+Repository = "https://github.com/eicarrie/reward_model_overfit_pattern_locate"
+Issues = "https://github.com/eicarrie/reward_model_overfit_pattern_locate/issues"
 
 [project.scripts]
-infergw_jd073 = "infergw_jd073:main"
+reward_model_overfit_pattern_locate = "reward_model_overfit_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["infergw_jd073"]
+py-modules = ["reward_model_overfit_pattern_locate"]
